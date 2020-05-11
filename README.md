@@ -1,3 +1,5 @@
-# Youtube Puppet
+# Youtube Puppet (W.I.P)
 ---
-Higher level abstraction specifically for youtube scraping with headless browsers
+A crawler to extract all kinds of youtube video data.
+
+Currently in development

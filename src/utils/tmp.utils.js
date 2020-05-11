@@ -6,12 +6,7 @@ function writeTmpFile(name, content) {
 }
 
 function loadTmpFile(name) {
-  try {
-    return fs.readFileSync(`${TMP_PATH}/${name}`, 'utf8')
-  } catch (e) {
-    console.error(e)
-    return null
-  }
+  return fs.readFileSync(`${TMP_PATH}/${name}`, 'utf8')
 }
 
 module.exports = {

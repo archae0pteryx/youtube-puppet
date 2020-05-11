@@ -12,7 +12,6 @@ const VIEWPORTS = {
     width: 1366,
     height: 768
   },
-  
 }
 module.exports = {
   UAS,
